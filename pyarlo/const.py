@@ -17,7 +17,7 @@ PROFILE_ENDPOINT = API_URL + "/users/profile"
 RESET_ENDPOINT = LIBRARY_ENDPOINT + "/reset"
 RESET_CAM_ENDPOINT = RESET_ENDPOINT + "/?uniqueId={0}"
 STREAM_ENDPOINT = API_URL + "/users/devices/startStream"
-SNAPSHOTS_ENDPOINT = API_URL + "/users/devices/fullFrameSnapshot"
+SNAPSHOTS_ENDPOINT = API_URL + "/users/devices/takeSnapshot"
 
 # number of days to preload video
 PRELOAD_DAYS = 30
